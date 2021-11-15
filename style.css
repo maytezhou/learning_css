@@ -228,7 +228,25 @@ footer{
 @media screen and (min-width: 992px) {
     body { font-size:90%; } 
 }
-@media screen and (max-width: 500px) {       
+@media screen and (max-width: 500px) { 
+    body { font-size:80%; }        
     .intro h1   { font-size:0.8rem; } 
+    .summary{
+        font-size: 1rem;
+    }
+    .explanation{
+        margin-right: 70%;
+        padding: 2rem;
+    }
+    .participation{
+        margin-left: 35%;
+    }
+    .benefits{
+        margin-top: 22%;
+    }
+    footer{
+        margin-top: 12%;
+    }
+
     
 }
